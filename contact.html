@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Home</title>
+		<title>Contact</title>
 		<meta name="description" content="Between 150 and 160 characters">
 		<link rel="stylesheet" href="css/contact.css">
 		<link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
@@ -18,11 +18,11 @@
 
 		<nav>
 				<ul>
-					<li><a href="index.html" id="home">Home</a></li>
+					<li><a href="index.html" >Home</a></li>
 					<li><a href="#">About Us</a></li>
 					<li><a href="#">Flights</a></li>
 					<li><a href="#">Gallery</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="contact.html" id="active-site">Contact</a></li>
 				</ul>
 
 				<ul id="social">
@@ -34,9 +34,77 @@
 				</ul>
 		</nav>
 
-		<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Join us at our CHCH campus 24th March 10am to 3pm. To find out more about studying design: <a href="https://t.co/YOdTWkfQVq">https://t.co/YOdTWkfQVq</a> <a href="https://t.co/hMJWX99Bxu">pic.twitter.com/hMJWX99Bxu</a></p>&mdash; ACG Yoobee (@YoobeeSchool) <a href="https://twitter.com/YoobeeSchool/status/707744802754797568">March 10, 2016</a></blockquote>
+		<div id="logo-box">
+			<div id="logo">
+				<h1>fly to the <span>limit<img src="images/logo.png" id="logo-img"></span></h1>
+			</div>
+		</div>
+
+		<div id="image-box">
+			<div id="main-image">
+				<img src="images/panorama6.jpg">
+				<button id="book-now">Book Now</button>
+				<h1>Fly Beyond Limits <span>Lorem ipsum dolor sit amet sed</span> </h1>
+
+			</div>
+			<img id="left-arrow" src="images/left-arrow.png">
+			<img id="right-arrow" src="images/right-arrow.png">
+		</div>
 
 
-	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		<div id="contact-box">
+			<div id="bg-box">
+				<div id="contact-left">
+					<h1>Contact Us</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					<br><br>
+
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<form>
+						
+						<ul>
+
+							<li><label for="name">Name: </label>
+							<span><input type="text" id="name"></input></span><li>
+
+							<li><label for="email">E-mail:</label>
+							<span><input type="email" id="email" ></input></span></li>
+						</ul>
+
+						<div id="one">
+							<label for="post" >Meassge:</label>
+							<span><textarea name="post" id="post" cols="91" rows="10"></textarea></span>
+						</div>
+						<div>
+							<label for="phone">Phone Number:</label>
+							<span><input type="tel" id="phone"></input></span>
+						</div>
+						<input type="submit" value="Submit"></input>
+					</form>
+				</div>
+				<div id="contact-right">
+				<ul>
+					<li>Email<span>info@fttl.co.nz</span></li>
+					<li>Telephone<span>0800456456</span></li>
+					<li>Skype<span>flytothelimit</span></li>
+					<li>Address
+						<span>
+							Fttl ltd.
+							10 kents terrace
+							Wellington
+							6020
+							New Zealand
+						</span>
+					</li>
+				</ul>
+					
+				</div>
+			</div>
+		</div>
+
 	</body>
 </html>
