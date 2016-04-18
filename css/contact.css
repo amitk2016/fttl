@@ -167,7 +167,8 @@ nav ul:hover{
 
 #bg-box{
 	margin-top: 50px;
-	background-color:grey;
+	/*background-color: grey;*/
+	background :rgba(21,21,21,0.4);
 	height: 700px;
 	box-sizing: border-box;
 	padding:10px;

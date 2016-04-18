@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Book Now</title>
+		<meta name="description" content="Between 150 and 160 characters">
+		<link rel="stylesheet" href="css/styles.css">
+		<link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		</head>
+
+	<body>
+		<div id="bg-image">
+			<img src="images/bg.jpg">
+			<img src="images/3.jpg">
+		</div>
+
+		<nav>
+				<ul>
+					<li><a href="index.html" >Home</a></li>
+					<li><a href="aboutUs.html" id="active-site">About Us</a></li>
+					<li><a href="flights.html">flights</a></li>
+					<li><a href="gallery.html">gallery</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+
+				<ul id="social">
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+					<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="#"><i class="fa fa-flickr"></i></a></li>
+				</ul>
+		</nav>
+
+		<div id="logo-box">
+			<div id="logo">
+				<h1>fly to the <span>limit<img src="images/logo.png" id="logo-img"></span></h1>
+			</div>
+		</div>
+
+		<div id="form-main-box">
+
+			<div id="form-box">
+
+				<form action="register.php" method="get">
+				<h1 class="subtitle fancy"><span>Contact Details</span></h1>
+				
+					
+					<div>
+						<label for="full-name">Full Name</label>
+						<input type="text" id="full-name" required placeholder="Bruce Wayne">
+					</div>
+
+					<div>
+						<label for="email">E-Mail</label>
+						<input type="email" id="email" required>
+					</div>
+
+					<div>
+						<label for="phone">Phone Number</label>
+						<input type="tel" id="phone">
+					</div>
+
+					<div>
+						<label for="website">Your website</label>
+						<input type="url" id="website" required value="http://">
+					</div>
+
+					<div>
+						<label for="quantity">Quantity</label>
+						<input type="number" id="quantity" min="1" max="500">
+					</div>
+
+					<div>
+						<label for="date">Check-in</label>
+						<input type="date" id="date">
+					</div>
+
+					<div>
+						<label for="country">Your Country</label>
+						<select name="country" id="country">
+							<option value="">Please select...</option>
+							<optgroup label="Oceania">
+								<option value="nz">New Zealand</option>
+								<option value="au">Australia</option>
+							</optgroup>
+							<optgroup label="Other">
+								<option value="usa">United States of America</option>
+							</optgroup>
+						</select>
+					</div>
+
+					<div>
+						<input type="radio" id="male" name="gender">
+						<label for="male">Male</label>
+					</div>
+
+					<div>
+						<input type="radio" id="female" name="gender">
+						<label for="female">Female</label>
+					</div>
+
+					<div>
+						<input type="radio" id="other" name="gender">
+						<label for="other">Other</label>
+					</div>
+
+					<div>
+						<input type="checkbox" id="remember" checked>
+						<label for="remember">Remember login</label>
+					</div>
+
+					<div>
+						<label for="post">Blog post</label>
+						<textarea name="post" id="post" cols="30" rows="10"></textarea>
+					</div>
+
+					<div>
+						<label for="search">Search</label>
+						<input type="search" id="search">
+					</div>
+
+					<div>
+						<progress max="100" value="70"></progress>
+					</div>
+
+					<input type="submit">
+
+				</form>
+			</div>
+		</div>
+
+	</body>
+
+</html>
