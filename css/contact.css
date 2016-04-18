@@ -166,8 +166,9 @@ nav ul:hover{
 }
 
 #bg-box{
-	background-color:lightgrey;
-	height: 600px;
+	margin-top: 50px;
+	background-color:grey;
+	height: 700px;
 	box-sizing: border-box;
 	padding:10px;
 }
@@ -186,12 +187,15 @@ nav ul:hover{
 	/*background-color: yellow;*/
 	float: left;
 }
+#contact-left h1{
+	margin-top:0;
+}
 #contact-left form span{
 	display: block;
 }
 #contact-right{
 	width: 25%;
-	height:500px;
+	height:620px;
 	background-image: url(../images/contact-bg.png);
 	/*background-color: pink;*/
 	float: right;
@@ -229,11 +233,44 @@ nav ul:hover{
 	box-sizing: border-box;
 	border-radius: 3px;
 }
-#one{
+#message-box{
 	margin-left: 40px;
+	margin-bottom: 20px;
+
+}
+#post{
+	border:0;
+	padding: 12px 14px;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+#phone-box{
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+#phone{
+	width: 260px;
+	height:35px;
+	/*background-color: #e1e1db;*/
+	border:0;
+	padding: 12px 14px;
+	box-sizing: border-box;
+	border-radius: 3px;
 }
 
-
+#send{
+	background-color:#e8554e;
+	width:150px;
+	font-size: 18px;
+	padding: 8px 10px;
+	border:none;
+	margin-left: 465px;
+	text-transform: uppercase;
+	color: white;
+	border-bottom: 5px solid #9a3834;
+	letter-spacing: 3px;
+	border-radius: 3px;
+}
 
 
 
