@@ -359,3 +359,75 @@ address{
 
 }
 
+/*Flights css style sheet starts from here */
+
+#flights-main-box{
+	width: 85%;
+	/*background-color: red;*/
+	height: 400px;
+	margin:0 auto;
+	box-sizing: border-box;
+	padding: 5px 20px;
+}
+#flights-image:after{
+	content:'';
+	display: block;
+	clear: both;
+}
+
+#flights-image img{
+	float: left;
+	margin-right:20px;
+}
+.arrows{
+	width:40px;
+}
+#flights-image{
+	/*background-color: green;*/
+}
+#icon-box{
+	width:85%;
+	/*background-color: yellow;*/
+	height: 120px;
+	margin: 0 auto;	
+}
+#icon-box span{
+	display: block;
+	margin-left:45%;
+}
+#icon-images{ 
+	/*background-color: pink;*/
+	margin-left:40%;
+	width: 400px;
+}
+
+#leftArrow{
+	margin-right:40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
