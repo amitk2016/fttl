@@ -378,6 +378,7 @@ address{
 #flights-image img{
 	float: left;
 	margin-right:20px;
+	width: 300px;
 }
 .arrows{
 	width:40px;
@@ -394,6 +395,9 @@ address{
 #icon-box span{
 	display: block;
 	margin-left:45%;
+}
+#icon-box span h2{
+	margin-top: 0;
 }
 #icon-images{ 
 	/*background-color: pink;*/
@@ -440,12 +444,83 @@ address{
 #flights-right-box2 ul{
 	padding-left:14px;
 }
+.aircraft-main-box{
+	/*height: 700px;*/
+	background-color:blue;
 
+}
+.aircraft-box{
+	width: 85%;
+	/*height: 500px;*/
+	/*background-color: green;*/
+	margin:0 auto;
+	box-sizing: border-box;
+	margin-bottom:60px;
+}
 
+.aircraft-box p{
+	padding-left: 20px;
+	margin-bottom:60px;
+}
 
+.aircraft-box img{
+	width: 280px;
+	float: left;
+	margin-right: 40px;
+	border-radius:5px;
+}
+.aircraft-box:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.aircraft-para{
+	/*padding-right: 20px;*/
+}
+#helicopter-box{
+	position: relative;
+}
+#stuntPlane-box img{
+	float: right;
+	width: 280px;
+	margin-right:0px; 
+}
+#stunt-plane-para{
+	padding-left: 0;
+}
+.pure-button{
+            
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgb(202, 60, 60);
+   	background: rgb(202, 60, 60);
+    position: relative;
+    border:none;
+	top: 5px;
+	font-size: 18px;
+	border-bottom: 5px solid  #9a3834;
+	padding: 8px 10px;
+	
+}
+#helicopter-button{
+	position: absolute;
+	right:10px;
+	top: 220px;
+}
+#glider-box{
+	position: relative;
+}
+#glider-button{
+	position: absolute;
+	right:10px;
+	top: 150px;
+}
 
-
-
+.aircraft-line{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
 
 
 
