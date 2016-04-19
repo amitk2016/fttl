@@ -527,7 +527,25 @@ address{
 
 
 
+/* Gallery page style sheet starts here...........................................................................*/
 
+#gallery-main-box{
+	height: 1000px;
+	/*background-color: red;*/
+}
+#gallery-box{
+	width: 85%;
+	height: 900px;
+	/*background-color: green;*/
+	margin:50px auto;
+	text-align: center;
+	background:rgba(21,21,21,0.4);
+
+}
+#gallery-box ul li{
+	list-style: none;
+	display: inline-block;
+}
 
 
 
