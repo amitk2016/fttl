@@ -169,7 +169,7 @@ nav ul:hover{
 	margin-top: 50px;
 	/*background-color: grey;*/
 	background :rgba(21,21,21,0.4);
-	height: 700px;
+	height: 740px;
 	box-sizing: border-box;
 	padding:10px;
 }
@@ -177,7 +177,7 @@ nav ul:hover{
 #contact-box{
 	width: 85%;
 	/*background-color: green;*/
-	height: 650px;
+	height: 800px;
 	margin:30px auto;
 
 }
@@ -195,8 +195,8 @@ nav ul:hover{
 	display: block;
 }
 #contact-right{
-	width: 25%;
-	height:620px;
+	width: 20%;
+	height:700px;
 	background-image: url(../images/contact-bg.png);
 	/*background-color: pink;*/
 	float: right;
@@ -206,14 +206,17 @@ nav ul:hover{
 	list-style: none;
 	margin-bottom:50px;
 	color: #e8554e;
+	font-size:18px;
 }
 #contact-right span{
 	display: block;
 	color: black;
+	font-size: 16px;
 }
 
 #contact-left form>ul>li{
 	display: inline-block;
+
 }
 #name{
 	width: 260px;
