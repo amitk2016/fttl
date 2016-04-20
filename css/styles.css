@@ -90,9 +90,23 @@ nav ul:hover{
 	border-radius: 100px / 50px;
 	box-sizing: border-box;
 	/*padding-top: 15px;*/
+	/*background-color: yellow;
+*/}
+#contact-mail{
+	/*background-color: green;*/
+	width:16%;
+	float: right;
+	position: absolute;
+	top:62px;
+	right:15px;
+}
+#contact-mail input,i{
+	margin-bottom:8px;
 }
 #logo-box{
 	padding-top: 65px;
+	/*background-color: red;*/
+	position: relative;
 }
 #logo span{
 	display: block;
@@ -288,9 +302,10 @@ footer{
 	padding-top: 8px;
 }
 #search-box{
-	margin:0px 20px;
+	margin-top:0px;
+	margin-left:40px;
 	/*background-color: yellow;*/
-	width: 50%;
+	width:40%;
 	float: left;
 
 }
