@@ -262,17 +262,25 @@ nav ul:hover{
 	margin:0 auto;
 }
 
+/* Footer style starts here ............................................................*/
+
 footer{
 	height: 300px;
 	background-color: #62bcfa;
 }
 #footer-nav{
-/*	background-color: red;
-*/	width:40%;
+	background-color:orange;
+	width:32%;
 }
 #footer-nav a{
 	text-decoration: none;
 	color:#191919;
+}
+#footer-nav a:hover{
+	color: #ED1C24;
+}
+#footer-nav ul {
+	padding-left: 20px;
 }
 #footer-nav li{
 	display: inline-block;
@@ -280,7 +288,10 @@ footer{
 	padding-top: 8px;
 }
 #search-box{
-	margin:0px 50px;
+	margin:0px 20px;
+	background-color: yellow;
+	width: 50%;
+	float: left;
 
 }
 #search-box div{
@@ -297,6 +308,7 @@ footer{
 }
 #search-box input{
 	height:20px;
+
 }
 #search{
 	width:200px;
@@ -305,36 +317,59 @@ footer{
 	font-size:20px;
 	margin-top: 0;
 }
-
+#left-address {
+	width:35%;
+	background-color: pink;
+	float: right;
+	text-align: left;
+	position: relative;
+	top: -38px;
+}
+#left-address span{
+	display: block;
+	margin-bottom: 20px;
+}
+#left-address a{
+	font-size: 22px;
+	color: white;
+}
+#left-address h2{
+	font-size: 18px;
+	text-decoration: underline;
+	margin-top: 10px;
+}
 #bottom-left{
 	height: 250px;
 	/*background-color: red;*/
-	width: 50%;
+	width:55%;
 	float: left;
+	background-color: red;
 }
 #bottom-right{
 	height: 280px;
 	/*background-color: yellow;*/
-	width: 50%;
+	width:45%;
 	float: right;
 	margin-top: -25px;
+	background-color: green;
+	padding-left: 10px;
+	box-sizing: border-box;
 }
 #contact{
 	width: 50%;
-	/*background-color: pink;
-*/	float: left;
-	font-size: 20px;
-}
-#contact address{
-	margin-bottom: 20px;
-	/*margin-left:10px;*/
+	float: left;
+
 }
 #contact a{
 	display: inline-block;
 	/*text-decoration: none;*/
 	color: white;
-	font-size: 24px;
-
+	font-size: 18px;
+}
+#contact h2{
+	text-decoration: underline;
+	font-size: 18px;
+	margin-top: 6px;
 }
 #contact i{
 	margin-bottom:10px;
@@ -343,11 +378,13 @@ footer{
 
 #map{
 	float: right;
-	margin-right:40px;
+	margin-right:20px;
 	margin-top: 10px;
+	background-color: grey;
+	width:40%;
 }
 address{
-	font-size:20px;
+	font-size:16px;
 	font-style: normal;
 }
 
@@ -530,11 +567,11 @@ address{
 /* Gallery page style sheet starts here...........................................................................*/
 
 #gallery-main-box{
-	height: 1000px;
+	height: 1200px;
 	/*background-color: red;*/
 }
 #gallery-box{
-	width: 85%;
+	width:75%;
 	height: 900px;
 	/*background-color: green;*/
 	margin:50px auto;

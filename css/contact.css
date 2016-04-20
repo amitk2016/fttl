@@ -176,14 +176,14 @@ nav ul:hover{
 #contact-box{
 	width: 85%;
 	/*background-color: green;*/
-	height: 650px;
+	height: 700px;
 	margin:30px auto;
 
 }
 
 #contact-left{
 	width: 75%;
-	height: 500px;
+	height: 700px;
 	/*background-color: yellow;*/
 	float: left;
 }
@@ -194,8 +194,8 @@ nav ul:hover{
 	display: block;
 }
 #contact-right{
-	width: 25%;
-	height:620px;
+	width: 20%;
+	height:680px;
 	background-image: url(../images/contact-bg.png);
 	/*background-color: pink;*/
 	float: right;
