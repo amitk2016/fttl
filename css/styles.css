@@ -269,7 +269,7 @@ footer{
 	background-color: #62bcfa;
 }
 #footer-nav{
-	background-color:orange;
+	/*background-color:orange;*/
 	width:32%;
 }
 #footer-nav a{
@@ -289,7 +289,7 @@ footer{
 }
 #search-box{
 	margin:0px 20px;
-	background-color: yellow;
+	/*background-color: yellow;*/
 	width: 50%;
 	float: left;
 
@@ -318,41 +318,49 @@ footer{
 	margin-top: 0;
 }
 #left-address {
-	width:35%;
-	background-color: pink;
+	width:40%;
+	/*background-color: pink;*/
 	float: right;
 	text-align: left;
-	position: relative;
-	top: -38px;
+}
+#left-address h1{
+	font-size: 20px;
+	margin-top: 5px;
+}
+#left-address img{
+	width:250px;
+	margin-bottom:70px;
 }
 #left-address span{
-	display: block;
+	/*display: block;*/
 	margin-bottom: 20px;
 }
-#left-address a{
+#contact h1{
+	margin-top: 0;
 	font-size: 22px;
 	color: white;
+	margin-bottom: 10px;
 }
-#left-address h2{
+#contact h2{
 	font-size: 18px;
 	text-decoration: underline;
-	margin-top: 10px;
+	margin-top:5px;
 }
 #bottom-left{
 	height: 250px;
 	/*background-color: red;*/
 	width:55%;
 	float: left;
-	background-color: red;
+	/*background-color: red;*/
 }
 #bottom-right{
 	height: 280px;
 	/*background-color: yellow;*/
-	width:45%;
+	width:40%;
 	float: right;
 	margin-top: -25px;
-	background-color: green;
-	padding-left: 10px;
+/*	background-color: green;*/
+	padding-left:10px;
 	box-sizing: border-box;
 }
 #contact{
@@ -366,7 +374,7 @@ footer{
 	color: white;
 	font-size: 18px;
 }
-#contact h2{
+#map h2{
 	text-decoration: underline;
 	font-size: 18px;
 	margin-top: 6px;
@@ -375,12 +383,16 @@ footer{
 	margin-bottom:10px;
 	/*margin-left: 10px;*/
 }
+#contact span{
+	display: block;
+	margin-bottom: 20px;
+}
 
 #map{
 	float: right;
 	margin-right:20px;
 	margin-top: 10px;
-	background-color: grey;
+	/*background-color: grey;*/
 	width:40%;
 }
 address{
