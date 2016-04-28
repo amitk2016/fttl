@@ -1,5 +1,9 @@
 //Patterns to use in validation 
 	
 	var namePattern = new RegExp("^[a-zA-Z' .-]{1,50}$");
-	var emailPattern = new	RegExp("/^[-a-z0-9~!$%^&*_=+}{\'?]+(\.[-a-z0-9~!$%^&*_=+}{\'?]+)*@([a-z0-9_][-a-z0-9_]*(\.[-a-z0-9_]+)*\.(aero|arpa|biz|com|coop|edu|gov|info|int|mil|museum|name|net|org|pro|travel|mobi|[a-z][a-z])|([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}))(:[0-9]{1,5})?$/i")
-	var phonePattern = new	RegExp("/^[+]*[(]{0,1}[0-9]{1,3}[)]{0,1}[-\s\./0-9]*$/g");
+
+	var phonePattern = new	RegExp("^(?:[0-9]●?){6,14}[0-9]$");
+
+	var emailPattern = new RegExp ("^[a-zA-Z0-9._-]*[@][a-zA-Z]*\.[a-zA-Z]{2,6}$");
+
+	var cityPattern = new RegExp("^[a-zA-Z\s-]+$");
