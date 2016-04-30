@@ -80,63 +80,65 @@
 								<div id="flights-details">
 									<label for="flights">Flights Package:</label>
 									<select class="options" name="flights" id="flights">
-										<option value="Select">Please select...</option>
-										<option value="Seenic Flight">Charter</option>
-										<option value="Tours">Mountain Viewing</option>
-										<option value="Lake Trips">Lake Trips</option>
-										<option value="Charter">Charter</option>
-										<option value="Tramping">Tramping</option>
+										<option name ="flights-select" value="0">Please select...</option>
+										<option name ="flights-select" value="1">Charter</option>
+										<option name ="flights-select" value="2">Mountain Viewing</option>
+										<option name ="flights-select" value="3">Lake Trips</option>
+										<option name ="flights-select" value="4">Charter</option>
+										<option name ="flights-select" value="5">Tramping</option>
 									</select>
+									<span id="flights-message"></span>
 								</div>
 
 								<div>
 									<label for="planes">Planes Options:</label>
 									<select name="planes" id="planes">
-										<option value="Select">Please select...</option>
-										<option value="Helicopter">Helicopter</option>
-										<option value="Glider">Glider Flights</option>
-										<option value="Stunt planes">Stunt Planes</option>
-										<option value="Fixed wings">Fixed Wings</option>
+										<option value="0">Please select...</option>
+										<option value="1">Helicopter</option>
+										<option value="2">Glider Flights</option>
+										<option value="3">Stunt Planes</option>
+										<option value="4">Fixed Wings</option>
 									</select>
+									<span id="planes-message"></span>
 								</div>
+
 
 								<div>
 									<label for="flights-length">Flights Length:</label>
 									<select name="flights-length" id="flights-length">
-										<option value="Select">Please select...</option>
+										<option value="0">Please select...</option>
 										<option value="1">1 Hour</option>
 										<option value="2">2 Hours</option>
 										<option value="3">3 Hours</option>
 										<option value="4">4 Hours+</option>
-										
 									</select>
+
+									<span id="#flights-length-message"></span>
 								</div>
-
-
-
-
-
 
 
 								<div>
 									<label for="origin">Origin:</label>
 									<select name="origin" id="origin">
-										<option value="Select">Please select...</option>
-										<option value="Queenstown">Queenstown</option>
-										<option value="Wanaks">Wanaka</option>
-										<option value="Milford Sound">Milford Sound</option>
-										<option value="fiordland">Fiordland</option>
+										<option value="0">Please select...</option>
+										<option value="1">Queenstown</option>
+										<option value="2">Wanaka</option>
+										<option value="3">Milford Sound</option>
+										<option value="4">Fiordland</option>
 									</select>
+									<span id="origin-message"></span>
 								</div>
+
 								<div>
 									<label for="destination">Destination:</label>
 									<select name="destination" id="destination">
-										<option value="Select">Please select...</option>
-										<option value="Queenstown">Queenstown</option>
-										<option value="Wanaks">Wanaka</option>
-										<option value="Milford Sound">Milford Sound</option>
-										<option value="fiordland">Fiordland</option>
+										<option value="0">Please select...</option>
+										<option value="1">Queenstown</option>
+										<option value="2">Wanaka</option>
+										<option value="3">Milford Sound</option>
+										<option value="4">Fiordland</option>
 									</select>
+									<span id="destination-message"></span>
 								</div>
 								<div>
 									<label for="no-passenger">No. of Passengers:</label>
